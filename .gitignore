@@ -14,6 +14,13 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+*.dll
+>>>>>>> d2ed6ae51d2e66b69542a9d1c805eb59d5aa6e11
+>>>>>>> b6c9d4d493e3ba4c1cba31dc61fb2ec4a0646819
 
 # Fortran module files
 *.mod
@@ -22,6 +29,14 @@
 # Compiled Static libraries
 *.lai
 *.la
+<<<<<<< HEAD
+=======
+*.a
+<<<<<<< HEAD
+=======
+*.lib
+>>>>>>> d2ed6ae51d2e66b69542a9d1c805eb59d5aa6e11
+>>>>>>> b6c9d4d493e3ba4c1cba31dc61fb2ec4a0646819
 
 # Executables
 *.exe
