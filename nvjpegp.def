@@ -62,3 +62,13 @@ EXPORTS
                   nvjpegSetPinnedMemoryPadding
                   nvjpegStateAttachDeviceBuffer
                   nvjpegStateAttachPinnedBuffer
+                  cudaMalloc
+                  cudaFree
+                  cudaMemcpy2D
+                  cudaSetDevice
+                  cudaDeviceGetAttribute
+                  cudaStreamCreateWithFlags
+                  cudaStreamSynchronize
+                  cudaStreamDestroy
+                  cudaGetErrorName
+                  cudaGetDeviceCount

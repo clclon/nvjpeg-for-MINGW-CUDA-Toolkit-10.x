@@ -14,10 +14,8 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-
-# Fortran module files
-*.mod
-*.smod
+*.exp
+*.ilk
 
 # Compiled Static libraries
 *.lai
@@ -27,3 +25,8 @@
 *.exe
 *.out
 *.app
+
+obj/*
+/lib/*.log
+.vs/*
+*.user

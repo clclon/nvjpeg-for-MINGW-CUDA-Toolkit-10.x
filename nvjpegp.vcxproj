@@ -57,7 +57,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Platform)'=='x64'">
     <TargetName>$(ProjectName)</TargetName>
-    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
     <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(CudaToolkitDir)\lib\x64;</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
@@ -107,7 +107,7 @@
       <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(CudaToolkitDir)\lib\x64;$(CudaToolkitDir)\common\lib\x64;</AdditionalLibraryDirectories>
     </CudaLink>
     <BuildLog>
-      <Path Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)bin\$(MSBuildProjectName).log</Path>
+      <Path Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(MSBuildProjectName).log</Path>
     </BuildLog>
     <ProjectReference>
       <UseLibraryDependencyInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</UseLibraryDependencyInputs>
@@ -141,7 +141,7 @@
       <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(CudaToolkitDir)\lib\x64;$(CudaToolkitDir)\common\lib\x64;</AdditionalLibraryDirectories>
     </CudaLink>
     <BuildLog>
-      <Path Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)bin\$(MSBuildProjectName).log</Path>
+      <Path Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)lib\$(MSBuildProjectName).log</Path>
     </BuildLog>
     <ProjectReference>
       <UseLibraryDependencyInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</UseLibraryDependencyInputs>
